@@ -1,0 +1,41 @@
+.container {
+  display: grid;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.player {
+  display: flex;
+  flex-direction: column;
+  min-width: 12rem;
+}
+
+.word {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  color: lightgray;
+  text-align: center;
+}
+
+.reset {
+  cursor: pointer;
+  color: #090909;
+  padding: 0.5em 1.7em;
+  font-size: 18px;
+  border-radius: 0.5em;
+  background: #e8e8e8;
+  border: 1px solid #e8e8e8;
+  transition: all 0.3s;
+  box-shadow: 6px 6px 12px #3f3f3f;
+  margin: 1rem;
+}
+
+.winner-text {
+  text-align: center;
+  margin-top: 1rem;
+  font-size: 2rem;
+  text-align: center;
+  color: #4dff4d;
+  text-shadow: 6px 6px 12px #203f1c;
+}
